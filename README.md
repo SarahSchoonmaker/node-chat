@@ -1,8 +1,6 @@
 # ChatApp
 Simply chat application based on **Node.js**, **Express** & **Socket**.**io** 
 
-## Live demo
-
 #### Installation
 
 `npm install`
