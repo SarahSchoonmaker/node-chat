@@ -4,7 +4,7 @@
   "description": "Simple chat application based on Express, React, Socket.io",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack",
+    "prestart": "NODE_ENV=production webpack",
     "webpack": "webpack-dev-server --inline --hot --config ./webpack.config.js",
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
